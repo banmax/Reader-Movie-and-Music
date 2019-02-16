@@ -1,11 +1,15 @@
-.container{
-    display: flex;
-    flex-direction: column;
+.container {
+  display: flex;
+  flex-direction: column;
 }
 
-.head-image{
-    width: 100%;
-    height: 460rpx;
+.head-image {
+  width: 100%;
+  height: 460rpx;
+}
+
+.hide{
+  opacity: 0;
 }
 
 .audio {
@@ -17,16 +21,17 @@
   top: 180rpx;
   opacity: 0.6;
 }
-.author-date{
-    flex-direction: row;
-    margin-left: 30rpx;
-    margin-top: 20rpx;
+
+.author-date {
+  flex-direction: row;
+  margin-left: 30rpx;
+  margin-top: 20rpx;
 }
 
-.avatar{
-    height: 64rpx;
-    width: 64rpx;
-    vertical-align: middle;
+.avatar {
+  height: 64rpx;
+  width: 64rpx;
+  vertical-align: middle;
 }
 
 .author {
